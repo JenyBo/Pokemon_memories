@@ -1,26 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <MainScreen/>
+  <CopyRight/>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import MainScreen from "./components/MainScreen.vue";
+import CopyRight from "./components/CopyRight.vue";
+// import InteractiveScreen from "./components/InteractiveScreen.vue";
+// import ResultScreen from "./components/ResultScreen.vue";
 
 export default {
   name: "App",
-  components: {
-    HelloWorld,
-  },
+  components: { MainScreen,CopyRight },
 };
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style></style>
